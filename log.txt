@@ -1,0 +1,20 @@
+show bewitched
+Name: Bewitched
+
+Genre: Comedy
+
+Rating: 7.4
+
+Network: ABC
+
+Summary: <p><b>Bewitched</b> starts off with a simple married couple; but what we soon find out is that Samantha, Darrin's wife, is a witch! Although they agree that Sam is not to use witchcraft now that they are married, a problem always seems to crop up and Samantha always resorts to spells. Things become even more complicated when Endora, Samantha's witch mother, starts to interfere.</p>
+show i love lucy
+Name: I Love Lucy
+
+Genre: Comedy
+
+Rating: 8.2
+
+Network: CBS
+
+Summary: <p><b>I Love Lucy</b> follows the antics of stay-at-home mom Lucy Ricardo as she tries to outsmart her Cuban band-leader husband, Ricky, and get into show business. Along the way she usually ends up dragging her landlords and best friends, Fred and Ethel Mertz, into one of her wacky schemes which can create some hilarious situations.</p>

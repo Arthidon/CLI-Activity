@@ -1,0 +1,23 @@
+{
+  "name": "tv-search",
+  "version": "1.0.0",
+  "description": "class activity - day 3 - week 11",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arthidon/CLI-Activity.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Arthidon/CLI-Activity/issues"
+  },
+  "homepage": "https://github.com/Arthidon/CLI-Activity#readme"
+}
