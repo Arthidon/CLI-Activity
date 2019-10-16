@@ -3,6 +3,7 @@ var TV = require("./tv");
 var axios = require("axios");
 var fs = require("fs");
 
+// FUNCTIONS
 function createLog (data) {
     data = data + "\n";
     fs.appendFile("./log.txt", data, function(err) {
@@ -13,7 +14,6 @@ function createLog (data) {
     });
 }
 
-// FUNCTIONS
 function actor () {
     console.log("Searching for TV Actor");
 }
@@ -59,6 +59,8 @@ function show () {
     
 }
 
+// VARIABLES
+
 // Create a new TV object
 var tv = new TV();
 
@@ -66,8 +68,10 @@ var search = process.argv[2];
 var term = process.argv.slice(3).join(" ");
 var searchString = search + " " + term;
 
+// send user input to log.txt
 createLog(searchString);
 
+// If no user input is given, set defaults
 if (!search) {
   search = "show";
 }
@@ -76,6 +80,7 @@ if (!term) {
   term = "Andy Griffith";
 }
 
+// Check for search command given and run appropriate function
 switch(search) {
                 
     case "actor":
