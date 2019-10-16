@@ -44,3 +44,13 @@ Gender: Male
 Country: United Kingdom
 
 Maze URL: http://www.tvmaze.com/people/39978/orlando-bloom
+actor orlando bloom
+Name: Orlando Bloom
+
+Birthday: 1977-01-13
+
+Gender: Male
+
+Country: United Kingdom
+
+Maze URL: http://www.tvmaze.com/people/39978/orlando-bloom
