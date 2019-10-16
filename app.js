@@ -16,6 +16,24 @@ function createLog (data) {
 // FUNCTIONS
 function actor () {
     console.log("Searching for TV Actor");
+    queryURL = tv.findActor(term);
+
+    axios.get(queryURL).then(
+        function(response){
+            var data = response.data[0].person;
+            console.log(data);
+            output = [
+                "Name: " + data.name,
+                "Birthday: " + data.birthday,
+                "Gender: " + data.gender,
+                "Country: " + data.country.name,
+                "Maze URL: " + data.url,
+            ].join("\n\n")
+
+            console.log(output);
+            createLog(output);
+        }
+    )
 }
 
 function show () {
