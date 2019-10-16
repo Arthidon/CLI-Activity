@@ -31,7 +31,7 @@ function show () {
                 "Rating: " + data.rating.average,
                 "Network: " + data.network.name,
                 "Summary: " + data.summary
-            ].join("\n\n")
+            ].join("\n\n");
 
             console.log(output);
             createLog(output);
